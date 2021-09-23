@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Science Clave</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<link rel = "icon" href = "0.jpg" type = "image/x-icon">
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EVENTS</a>
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
+    <a href="#work" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALLERY</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button">SOCIAL MEDIA<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="https://www.linkedin.com/company/the-b-sc-programme-society-st-stephen-s-college" class="w3-bar-item w3-button">LinkedIn</a>
+        <a href="https://www.instagram.com/science_clave_ssc" class="w3-bar-item w3-button">InstaGram</a>
+        <a href="https://www.facebook.com/BScprog" class="w3-bar-item w3-button">FaceBook</a>
+      </div>
+    </div>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button">UPCOMING EVENTS<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="" class="w3-bar-item w3-button">Register here</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large">EVENTS</a>
+  <a href="#team" class="w3-bar-item w3-button w3-padding-large">TEAM</a> 
+  <a href="#work" class="w3-bar-item w3-button w3-padding-large">GALLERY</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+  <a href="https://www.linkedin.com/company/the-b-sc-programme-society-st-stephen-s-college" class="w3-bar-item w3-button w3-padding-large">LINKEDIN</a>
+  <a href="https://www.instagram.com/science_clave_ssc" class="w3-bar-item w3-button w3-padding-large">INSTAGRAM</a>
+  <a href="https://www.facebook.com/BScprog" class="w3-bar-item w3-button w3-padding-large">FACEBOOK</a>
+  <a href="" class="w3-bar-item w3-button w3-padding-large">NEW</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="1.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>The B. Sc. Programme Society</h3>
+      <p><b>St. Stephen's College</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="2.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3 color="w3-black">St. Stephen's College</h3>
+      <p><b>University of Delhi</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="3.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Fusion</h3>
+      <p><b>Our Annual Fest</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="4.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Scienceify</h3>
+      <p><b>Creative Science Series</b></p>    
+    </div>
+  </div>
+<!-- The About Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">The B. Sc. Programme Society</h2>
+    <p class="w3-opacity"><i>St. Stephen's College</i></p>
+    <p class="w3-center">The B.Sc. Programme Society, St. Stephen's College is a student-run society that is formulated on the idea of the importance of multi-disciplinary knowledge in today's world.  The society aims at being a platform for all students irrespective of their courses to learn the things that are happening around us. It focusses on organizing a wide array of events like talks, seminars, webinars, workshops, discussions, quizzes along with society's Annual fest Fusion.</p>
+    <br>
+    <br>
+    <h4 class="w3-wide">OUR MEDIA PARTNERS</h4>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>DU Times</p>
+        <img src="sponsor1.jpg" class="w3-round w3-margin-bottom" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>DU Official</p>
+        <img src="sponsor2.jpg" class="w3-round w3-margin-bottom" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>DU Express</p>
+        <img src="sponsor3.jpg" class="w3-round" style="width:60%">
+      </div>
+    </div>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>DU Assasins</p>
+        <img src="sponsor4.jpg" class="w3-round w3-margin-bottom" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>DU Club</p>
+        <img src="sponsor5.jpg" class="w3-round w3-margin-bottom" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>DU Queries Solved</p>
+        <img src="sponsor6.jpg" class="w3-round" style="width:60%">
+      </div>
+    </div>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>DU Newss</p>
+        <img src="sponsor7.jpg" class="w3-round w3-margin-bottom" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>DU Refresh News</p>
+        <img src="sponsor8.jpg" class="w3-round w3-margin-bottom" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>DU Unify</p>
+        <img src="sponsor9.jpg" class="w3-round" style="width:60%">
+      </div>
+     </div> 
+    <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <p>DU Bulletin</p>
+          <img src="sponsor10.jpg" class="w3-round w3-margin-bottom" style="width:60%">
+        </div>
+        <div class="w3-third">
+          <p>DU News India</p>
+          <img src="sponsor11.jpg" class="w3-round w3-margin-bottom" style="width:60%">
+        </div>
+        <div class="w3-third">
+          <p>Kollege Konnection</p>
+          <img src="sponsor12.jpg" class="w3-round" style="width:60%">
+        </div>
+    </div>
+  </div>  
+
+<!-- The Event Section -->
+<div class="w3-black" id="tour">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center">OUR EVENTS</h2>
+    <p class="w3-opacity w3-center"><i>2020-21: A Year in Review</i></p><br>
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <img src="event15.jpg" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Farewell</b></p>
+          <p class="w3-opacity">4th June 2021</p>
+          <p>A farewell event for the outgoing council who served diligently towards the society and took it to new heights</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event14.png" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>1 Man, 3 Roles</b></p>
+          <p class="w3-opacity">4th April 2021</p>
+          <p>A talk by Prof. H.C. Verma (Renowned Physicist, Professor at IIT Kanpur and Author of Concept of Physics)</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event13.jpg" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Discuss Success</b></p>
+          <p class="w3-opacity">2nd March 2021</p>
+          <p>A talk by Sumita Arora (Principal, Gensler) in association with The Incubation Centre of St. Stephen's College</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <img src="event12.jpg" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Treasure Hunt</b></p>
+          <p class="w3-opacity">21st February 2021</p>
+          <p>An online thrilling chase full of tricky science codes and questions with exciting prizes as a part of Fusion</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event11.jfif" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Pixel Science</b></p>
+          <p class="w3-opacity">21st February 2021</p>
+          <p>An online photography competetion capturing and explaining science phenomena as a part of Fusion</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event10.jfif" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Choices: How We Are Defined</b></p>
+          <p class="w3-opacity">20th February 2021</p>
+          <p>A talk by Mr. Anuj Kumar Sharma (SDE at Amazon and Youtuber with 80K+ Subscribers) as a part of Fusion</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <img src="event9.jfif" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Merchandise</b></p>
+          <p class="w3-opacity">11th February 2021</p>
+          <p>Release of Merchandise for the academic year 202-21 consisting of masks, t-shirts and tote bags</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event8.jfif" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>A Journey from the Start</b></p>
+          <p class="w3-opacity">31st January 2021</p>
+          <p>A talk by Mr. Shobhit Nirwan, one of the most loved educator and a youtuber with over 4 lacs subsribers</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event7.jpg" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Backyard Science</b></p>
+          <p class="w3-opacity">17th November 2020</p>
+          <p>A competetion based on videos performing simple science experiments as a part of Scienceify</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <img src="event6.png" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Sci-Fi Blast</b></p>
+          <p class="w3-opacity">17th November 2020</p>
+          <p>A competetion based on original and unique writings of science and fiction genre as a part of Scienceify</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event5.jpg" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Art with Science</b></p>
+          <p class="w3-opacity">17th November 2020</p>
+          <p>A competetion based on creative artwork based on science and mathematics as a part of Scienceify</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event4.jpg" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Magic Mania</b></p>
+          <p class="w3-opacity">17th November 2020</p>
+          <p>A competetion based on cool magic trick videos and the science behind it as a part of Scienceify</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <img src="event3.jfif" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Cryptus</b></p>
+          <p class="w3-opacity">18th October 2020</p>
+          <p>A Cyber-Security Workshop by Mr. Archie Jackson (Sr. Director of Head IT & Security at Indeco Inc.)</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event2.jpg" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Meme Making Competetion</b></p>
+          <p class="w3-opacity">16th September 2020</p>
+          <p>A science based meme making competetion to add some spice amidst the daily grind of life and online classes</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="event1.jfif" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Mathematrix</b></p>
+          <p class="w3-opacity">6th September 2020</p>
+          <p>A talk on Reforms in Mathematics in India by World's Fastest Human Calculator- Neelkantha Bhanuprakash Jain</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>     
+  
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">Executive Council 2021-22</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Trisha.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Trisha Sheel Jaiswal</h3>
+          <p class="w3-opacity">President</p>
+          <p>B. Sc. Programme with Chemistry</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Bronia.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Bronia Mathews</h3>
+          <p class="w3-opacity">Vice President</p>
+          <p>B. Sc. Programme with Computer Science</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Krupa.jpeg" style="width:100%">
+        <div class="w3-container">
+          <h3>Krupa Mariam Koshy</h3>
+          <p class="w3-opacity">Vice President</p>
+          <p>B. Sc. Programme with Chemistry</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Raymon.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Raymon Dhanoa</h3>
+          <p class="w3-opacity">General Secretary</p>
+          <p>B. Sc. Programme with Chemistry</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Premkrishna.JPG" style="width:100%">
+        <div class="w3-container">
+          <h3>Premkrishna N</h3>
+          <p class="w3-opacity">Joint Secretary</p>
+          <p>B. Sc. Programme with Chemistry</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Rudraksh.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Rudraksh Dua</h3>
+          <p class="w3-opacity">Treasurer</p>
+          <p>B. Sc. Prograamme with Computer Science</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Divye.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Divye Satija</h3>
+          <p class="w3-opacity">Executive Council Member</p>
+          <p>B. Sc. Programme with Computer Science</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Dixit.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Dixit Goyal</h3>
+          <p class="w3-opacity">Executive Council Member</p>
+          <p>B. Sc. Programme with Chemistry</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Gauravi.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Gauravi Kashyap</h3>
+          <p class="w3-opacity">Executive Council Member</p>
+          <p>B. Sc. Programme with Computer Science</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Hazael.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Hazael Hanuk Robson</h3>
+          <p class="w3-opacity">Executive Council Member</p>
+          <p>B. Sc. Programme with Computer Science</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Kajal.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Kajal Gahtyari</h3>
+          <p class="w3-opacity">Executive Council Member</p>
+          <p>B. Sc. Programme with Chemistry</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Sherin.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Sherin Jose</h3>
+          <p class="w3-opacity">Executive Council Member</p>
+          <p>B. Sc. Programme with Chemistry</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container w3-black" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">IMAGE GALLERY</h3>
+  <p class="w3-center w3-large">"Obstacles: Stepping Stones to Success"- A talk by Yogesh Chabria, Bestelling Author and Speaker</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="image1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="image2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="image3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="image4.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-content w3-padding-64"  id="contact">
+  <h2 class="w3-wide w3-center">CONTACT</h2>
+  <p class="w3-opacity w3-center"><i>Let's get in touch</i></p>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-col m6 w3-large w3-margin-bottom">
+      <i class="fa fa-map-marker" style="width:30px"></i>St. Stephen's College, North Campus, University of Delhi<br>
+      <i class="fa fa-phone" style="width:30px"></i>+91- 74820 22840<br>
+      <i class="fa fa-envelope" style="width:30px"> </i>b.sc.programmesoc.scc@gmail.com<br>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <p>Copyright of The B. Sc. Programme Society 2021</p>
+  <p><a href="https://github.com/DivyeSatija">GitHub</a></p>
+</footer>
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+
+
+</html>
